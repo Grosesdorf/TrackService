@@ -1,0 +1,657 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"color",
+				"background-color"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
+				"date",
+				"date_create"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"a",
+				"actionName"
+			],
+			[
+				"co",
+				"controllerName"
+			],
+			[
+				"uri",
+				"uriPattern"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"count",
+				"countComments"
+			],
+			[
+				"file_put",
+				"file_put_contents"
+			],
+			[
+				"curl_",
+				"curl_exec"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"i",
+				"if	if …"
+			],
+			[
+				"__",
+				"__FILE__"
+			],
+			[
+				"e",
+				"enctype	Attr"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sr",
+				"script	Tag"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"border-",
+				"border-top-right-radius"
+			],
+			[
+				"border-to",
+				"border-top-left-radius"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "resources/views/app.blade.php",
+			"settings":
+			{
+				"buffer_size": 2766,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/index.blade.php",
+			"settings":
+			{
+				"buffer_size": 3178,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "server.php",
+			"settings":
+			{
+				"buffer_size": 561,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/IndexController.php",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 263.0,
+		"last_filter": "Snippet: lis",
+		"selected_items":
+		[
+			[
+				"Snippet: lis",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 520.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/OpenServer/domains/TrackService-master/index.html",
+		"/C/OpenServer/domains/TrackService/app/Http/routes.php",
+		"/C/OpenServer/domains/TrackService/app/Http/Controllers/FirstController.php",
+		"/C/OpenServer/domains/TrackService/track.sublime-project",
+		"/C/OpenServer/domains/TruckService/app/Http/Controllers/FirstController.php",
+		"/C/OpenServer/domains/TruckService/app/Http/routes.php",
+		"/C/OpenServer/domains/TruckService/.htaccess",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/config/routes.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/core/Router.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/views/blog/blogsListView.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/index.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/index01.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/models/Blog.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/controllers/BlogController.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/config/db_params.php",
+		"/C/OpenServer/domains/miniBlog/index.html",
+		"/C/OpenServer/domains/miniBlog/bootstrap/app/views/news/newsItemView.php",
+		"/C/OpenServer/domains/miniBlog/bootstrap/.htaccess",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/serviсes.html",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/reports.html",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/transport.html",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/css/starter-template.css",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/servies.html",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/temp.php",
+		"/E/_D/_yaDisk/_html/ServiceTruck/project/css/normalize.css",
+		"/C/OpenServer/domains/LaravelTest/02/newssite/app/Models/Comment.php",
+		"/C/OpenServer/domains/LaravelTest/02/newssite/app/Console/Commands/NewsCreate.php",
+		"/C/OpenServer/domains/laravel.local/02/newssite/database/migrations/users/2016_03_17_160753_create_users_table.php",
+		"/C/OpenServer/domains/laravel.local/02/_task.txt",
+		"/C/OpenServer/domains/laravel.local/02/newssite/database/migrations/users/2016_03_17_162841_create_users_table.php",
+		"/C/OpenServer/domains/laravel.local/02/newssite/database/seeds/UsersTableSeeder.php",
+		"/C/OpenServer/domains/laravel.local/02/newssite/database/seeds/DatabaseSeeder.php",
+		"/C/OpenServer/domains/laravel.local/02/newssite/database/migrations/users/2016_03_16_214918_create_users_table.php",
+		"/D/OpenServer/domains/parser-paul.local/README.md",
+		"/D/OpenServer/domains/parser-paul.local/lib/sql.php",
+		"/D/OpenServer/domains/parser-paul.local/lib/curl_query.php",
+		"/D/OpenServer/domains/parser-paul.local/index.php",
+		"/D/OpenServer/domains/parser-paul.local/lib/simple_html_dom.php",
+		"/D/OpenServer/domains/video.local/controllers/user.controller.php",
+		"/D/OpenServer/domains/video.local/controllers/index.php",
+		"/D/OpenServer/domains/video.local/tmp.php",
+		"/D/OpenServer/domains/video.local/controllers/tpl/json.tpl",
+		"/D/OpenServer/domains/video.local/classes/user.php",
+		"/D/OpenServer/domains/video.local/m/Mlogin.class.php",
+		"/D/OpenServer/domains/smssenger/controllers/u.controller.php",
+		"/D/OpenServer/domains/video.local/classes/model.php",
+		"/D/OpenServer/domains/video.local/controllers/tpl/layout.unregistered.tpl",
+		"/D/OpenServer/domains/video.local/controllers/tpl/dashboard.tpl",
+		"/D/OpenServer/domains/video.local/controllers/tpl/layout.registered.tpl",
+		"/D/OpenServer/domains/video.local/images/logo3.png",
+		"/D/OpenServer/domains/video.local/HTML_builder/BUILDER_HTML_V165/builder_front/index.html",
+		"/D/OpenServer/domains/smssenger.local/controllers/index.php",
+		"/D/OpenServer/domains/smssenger.local/controllers/tpl/index.tpl",
+		"/D/OpenServer/domains/smssenger.local/controllers/tpl/my.tpl",
+		"/D/OpenServer/domains/smssenger/m/Mrouter.class.php",
+		"/D/OpenServer/domains/smssenger/controllers/main.php",
+		"/D/OpenServer/domains/smssenger/controllers/index.php",
+		"/D/OpenServer/domains/smssenger.local/controllers/main.php",
+		"/D/OpenServer/domains/leon.local/controllers/main.php",
+		"/D/OpenServer/domains/leon.local/controllers/tpl/helloworld.tpl",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/test2/test2.php",
+		"/D/OpenServer/domains/smssenger.local/controllers/_tpl/index.tpl",
+		"/D/OpenServer/domains/smssenger.local/controllers/registration.php",
+		"/D/OpenServer/domains/sms/controllers/main.php",
+		"/D/OpenServer/domains/smssenger.local/classes/user.php",
+		"/D/OpenServer/domains/sms/controllers/index.php",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/feedback_paul/deactivate.php",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/feedback_paul/activate.php",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/feedback_paul/logs.log",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/feedback_paul/feedback_paul.php",
+		"/D/OpenServer/domains/wp.local/wp-config.php",
+		"/D/OpenServer/domains/wp.local/wp-content/plugins/feedback_paul.php",
+		"/D/OpenServer/domains/wordpress.local/wp-config.php",
+		"/C/Users/support/Desktop/reidds(1)/shipment creation.xml",
+		"/C/Users/support/Desktop/reidds(1)/shipment cancellation.xml",
+		"/D/OpenServer/domains/angularjs-local/index.html",
+		"/C/Users/support/Downloads/nusoap-0.9.5/samples/wsdlclient1.php",
+		"/C/Users/support/Downloads/nusoap-0.9.5/samples/client2.php",
+		"/C/Users/support/Downloads/nusoap-0.9.5/samples/client1.php",
+		"/D/OpenServer/domains/leon.local/controllers/index.php",
+		"/D/OpenServer/domains/kcs-isracard/application/config/database.php",
+		"/C/Users/support/AppData/Roaming/Skype/My Skype Received Files/phpmailer.class.php",
+		"/C/Users/support/AppData/Roaming/Skype/My Skype Received Files/class.smtp.php",
+		"/D/OpenServer/domains/leon.local/m/Smarty-2.6.9/libs/Smarty.class.php",
+		"/D/OpenServer/domains/leon.local/m/Smarty-2.6.9/FAQ",
+		"/D/OpenServer/domains/leon.local/m/Mview.class.php",
+		"/D/OpenServer/domains/leon.local/m/Mcontroller.class.php",
+		"/D/OpenServer/domains/leon.local/m/Mrouter.class.php",
+		"/D/OpenServer/domains/leon.local/controllers/tpl/index.tpl",
+		"/D/OpenServer/domains/leon.local/m/msu.php",
+		"/D/OpenServer/domains/leon.local/m/mfiles.php",
+		"/D/OpenServer/domains/leon.local/m/Smarty-2.6.9/QUICK_START",
+		"/D/OpenServer/domains/leon.local/m/Smarty-3.1.21/change_log.txt",
+		"/D/OpenServer/domains/ci3.local/application/config/database.php",
+		"/D/OpenServer/domains/ci3.local/.htaccess",
+		"/D/OpenServer/domains/ci3.local/application/.htaccess",
+		"/D/OpenServer/domains/ci3.local/application/config/config.php",
+		"/D/OpenServer/domains/multifilesmail.local/style.css",
+		"/D/OpenServer/domains/ajax-php.local/myjs.js",
+		"/D/OpenServer/domains/ajax-php.local/result.php",
+		"/D/OpenServer/domains/ajax-php.local/index.php",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/kinomonster/index.html",
+		"/D/OpenServer/domains/ajax-test.local/index.php",
+		"/D/OpenServer/domains/ajax-test.local/myAjax.js",
+		"/D/OpenServer/domains/ajax-test.local/content.php",
+		"/D/OpenServer/domains/ajax-test.local/check.php",
+		"//itk/c$/Documents and Settings/Apart/Рабочий стол/fido/EXP_FIDO.TXT",
+		"//kassa/c$/_IT_ADD/IT_BANK/FIDO/r301648F.618437",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/kinomonster/contact.html",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/kinomonster/show.html",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/kinomonster/assets/css/style.css",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/html_lesson1/SEND/source/index.html",
+		"/D/_yaDisk/YandexDisk/YandexDisk/HTML/ru/html_lesson1/SEND/source/index2.html",
+		"/C/Users/support/Downloads/tmp_emmet.html",
+		"/C/Users/support/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 118.0,
+		"where_history":
+		[
+			"C:\\OpenServer\\domains\\miniBlog",
+			"C:\\OpenServer\\domains\\laravel.local\\02\\newssite",
+			"D:\\OpenServer\\domains\\leon.local"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bblog",
+			"?>",
+			";\n",
+			"add_index",
+			"AddIndexNews",
+			"str_get",
+			"logi",
+			"user/login",
+			"user/prof",
+			"class user",
+			"';\n",
+			"smarty->display",
+			"index.tpl",
+			"smarty->display",
+			"display",
+			"index.tpl",
+			">\n",
+			"?>",
+			"450px",
+			"Рейтинг",
+			"\">\n",
+			"list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "resources/views/app.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2766,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2409,
+								2409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/index.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3178,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3166,
+								3166
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Http/Controllers/IndexController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 244.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "track.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

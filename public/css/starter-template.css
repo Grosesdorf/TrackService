@@ -1,0 +1,19 @@
+body {
+  	padding-top: 30px;
+}
+.starter-template {
+  	padding: 40px 15px;
+  	text-align: center;
+}
+
+th, td {
+	text-align: center;
+}
+
+.table > thead > tr > th {
+     vertical-align: middle;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
