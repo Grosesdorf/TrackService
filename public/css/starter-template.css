@@ -17,3 +17,11 @@ th, td {
 .table > tbody > tr > td {
      vertical-align: middle;
 }
+
+.panel-body {
+    padding: 50px 15px;
+}
+
+.navbar-nav {
+    margin-left: 26%; 
+}

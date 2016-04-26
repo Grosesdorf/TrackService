@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="ico/truck01.ico">
 
-	<title>Laravel</title>
+	<title>TruckService</title>
 
 	<link href="css/normalize.css" rel="stylesheet">
+	<link href="/css/app.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/starter-template.css" rel="stylesheet">
 
@@ -33,19 +34,20 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Truck Service</a>
+          <a class="navbar-brand" href="/">Truck Service</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="index.html">Главная</a></li>
-				<li><a href="transport.html">Транспорт</a></li>
-				<li><a href="services.html">Сервисы</a></li>
-				<li><a href="reports.html">Отчеты</a></li>
+				<li><a href="/">Главная</a></li>
+				<li><a href="/report">Отчеты</a></li>
+				<li><a href="/catalog">Справочники</a></li>
+				<!-- <li><a href="transport.html">Транспорт</a></li>
+				<li><a href="services.html">Сервисы</a></li> -->
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				@if (Auth::guest())
 					<li><a href="/auth/login">Login</a></li>
-					<!-- <li><a href="/auth/register">Register</a></li> -->
+					<li><a href="/auth/register">Register</a></li>
 				@else
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
@@ -59,7 +61,7 @@
       </div>
     </nav>
 
-	<!-- @yield('content') -->
+	@yield('content')
 
 	<!-- Scripts -->
 	<script src="js/jquery-1.12.2.min.js"></script>
