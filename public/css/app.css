@@ -2390,8 +2390,9 @@ input[type="search"] {
   }
 }
 .form-group {
+  width: 25%;
   margin: auto;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 .radio,
 .checkbox {

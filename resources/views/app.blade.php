@@ -67,10 +67,9 @@
     </div>
 
 	<div class="container-fluid">
-		<div class="starter-template">
-	        <!-- <h1>Bootstrap starter template</h1>       -->
+
 		@yield('content')
-		</div>
+		
 	</div>
 
 	<!-- Scripts -->

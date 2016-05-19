@@ -1,6 +1,7 @@
 @extends('app')
 
 @section('content')
+    <div class="starter-template">
         <h1>Информация по сервису</h1>  
         <p>
         	<a class="btn btn-default" href="\tasks\create" role="button">Добавить</a>
@@ -84,4 +85,5 @@
             </div>
           </div>
         </div>
+    </div>
 @endsection
