@@ -4,10 +4,10 @@
 <div class="container-fluid">
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
-			<!-- <div class="panel panel-default"> -->
-			<div class="panel-default">
-				<div class="panel-heading">Login</div>
-				<div class="panel-body">
+			<!-- <div class="panel-default"> -->
+					<h2>Авторизация</h2>	
+				<!-- <div class="panel-body"> -->
+
 					@if (count($errors) > 0)
 						<div class="alert alert-danger">
 							<strong>Whoops!</strong> There were some problems with your input.<br><br>
@@ -18,7 +18,6 @@
 							</ul>
 						</div>
 					@endif
-
 					<form class="form-horizontal" role="form" method="POST" action="/auth/login">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
@@ -52,12 +51,12 @@
 									Login
 								</button>
 
-								<a href="/password/email">Forgot Your Password?</a>
+								<!-- <a href="/password/email">Forgot Your Password?</a> -->
 							</div>
 						</div>
 					</form>
-				</div>
-			</div>
+				<!-- </div> -->
+			<!-- </div> -->
 		</div>
 	</div>
 </div>

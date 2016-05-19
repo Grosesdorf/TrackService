@@ -2390,6 +2390,7 @@ input[type="search"] {
   }
 }
 .form-group {
+  margin: auto;
   margin-bottom: 15px;
 }
 .radio,
@@ -2674,6 +2675,9 @@ select[multiple].form-group-lg .form-control {
   .form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
+}
+.form-horizontal {
+  margin-top: 60px;
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox,

@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="ico/truck01.ico">
 
-	<title>TruckService</title>
+	<title>TS|Login</title>
 
-	<link href="/css/normalize.css" rel="stylesheet">
+	<link href="css/normalize.css" rel="stylesheet">
 	<link href="/css/app.css" rel="stylesheet">
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/css/starter-template.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/starter-template.css" rel="stylesheet">
 
 	<!-- <link href="/css/app.css" rel="stylesheet"> -->
 	<!-- Fonts -->
@@ -25,7 +25,7 @@
 	<![endif]-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -34,21 +34,15 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          @if(Auth::guest())
-		  @else
-			<a class="navbar-brand" href="/">Truck Service</a>
-		  @endif
         </div>
         <div id="navbar" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
-				@if(Auth::guest())
-					<!--  -->
-				@else
-					<li><a href="/tasks">Главная</a></li>
-					<li><a href="/reports">Отчеты</a></li>
-					<li><a href="/catalogs">Справочники</a></li>
-				@endif
-			</ul>
+			<!-- <ul class="nav navbar-nav"> -->
+				<!-- <li><a href="/tasks">Главная</a></li>
+				<li><a href="/reports">Отчеты</a></li>
+				<li><a href="/catalogs">Справочники</a></li> -->
+				<!-- <li><a href="transport.html">Транспорт</a></li>
+				<li><a href="services.html">Сервисы</a></li> -->
+			<!-- </ul> -->
 			<ul class="nav navbar-nav navbar-right">
 				@if (Auth::guest())
 					<!-- <li><a href="/auth/login">Login</a></li> -->
@@ -64,18 +58,13 @@
 			</ul>
         </div>
       </div>
-    </div>
+    </nav>
 
-	<div class="container-fluid">
-		<div class="starter-template">
-	        <!-- <h1>Bootstrap starter template</h1>       -->
-		@yield('content')
-		</div>
-	</div>
+	@yield('content')
 
 	<!-- Scripts -->
-	<script src="/js/jquery-1.12.2.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+	<script src="js/jquery-1.12.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 	<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script> -->
 </body>

@@ -11,8 +11,16 @@
 |
 */
 
-Route::get('/', 'IndexController@index');
-Route::get('/home', 'HomeController@index');
+
+Route::get('/', ['middleware' => 'auth', 'uses' => 'TasksController@index']);
+Route::get('/tasks', ['middleware' => 'auth', 'uses' => 'TasksController@index']);
+Route::get('/tasks/create', ['middleware' => 'auth', 'uses' => 'TasksController@create']);
+Route::get('/reports', ['middleware' => 'auth', 'uses' => 'ReportsController@index']);
+Route::get('/catalogs', ['middleware' => 'auth', 'uses' => 'CatalogsController@index']);
+
+// 	Route::get('/tasks','TasksController@index');
+// 	Route::get('/create','TasksController@create');
+// 	Route::get('/edit/{id}','TasksController@edit');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
